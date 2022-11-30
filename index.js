@@ -59,14 +59,13 @@ const questions = [
 
 // TODO: Create a function to write README file
 const writeToFile = data => {
-    return new Promise((resolve, reject) => {
+    return new Promise((correct, error) => {
     fs.writeFile('README.md', data, err => {
         if (err) {
-            reject (err);
+            error (err);
             return;
         }
-        resolve ({
-            ok: true,
+        correct ({
             message: console.log('Successfully wrote to README.md')
         });
       })

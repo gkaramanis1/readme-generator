@@ -1,4 +1,4 @@
-([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT))
+([![License: MIT]https://img.shields.io/badge/License-MIT-yellow.svg](https://opensource.org/licenses/MIT))
   
   ## README File Generator
   
@@ -33,4 +33,3 @@
   [github profile](https://github.com/gkaramanis1)
   
   If you have any further questions, please contact me at gkaramanis@knights.ucf.edu
- 
