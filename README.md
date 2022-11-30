@@ -1,4 +1,4 @@
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)]([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT))
+([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT))
   
   ## README File Generator
   
@@ -12,13 +12,13 @@
   - [Questions](#questions)
   
   # Description
-  This application will generate your own professional README file!!
+  This application will generate your own professional README file!
   
   # Installation
-  node.js
+  Node.js
   
   # Usage
-  To begin, start by opening up your terminal and inputting the command "node index.js". After that, answer the questions prompted to you until you go through them all. After inputting in all of your information, your README.md file will be generated with all of the information you inputted.
+  To begin, start by opening up yourterminal and inputting the command"node index.js". After that, answer the questions prompted to you until you go through them all. After inputting in all of your information, your README file will be generated with all of the information you inputted.
   
   # How to Contribute
   George Karamanis
