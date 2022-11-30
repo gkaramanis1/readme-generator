@@ -13,13 +13,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'MIT') {
-    return `[![License: MIT]https://img.shields.io/badge/License-MIT-yellow.svg](https://opensource.org/licenses/MIT)`
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
   if (license === 'MPL 2.0') {
-    return `[![License: MPL 2.0]https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg](https://opensource.org/licenses/MPL-2.0)`
+    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
   }
   if (license === 'ISC') {
-    return `[![License: ISC]https://img.shields.io/badge/License-ISC-blue.svg](https://opensource.org/licenses/ISC)`
+    return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
   }
 }
 
