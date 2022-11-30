@@ -12,13 +12,13 @@
   - [Questions](#questions)
   
   # Description
-  create your own professional README file!
+  Use this application to create your own professional README file! A demonstration on how to use this application is provided here: [Demonstration](https://app.castify.com/view/a9cb569f-66f5-41f6-a3bf-526a8a5c545b)
   
   # Installation
   Node.js
   
   # Usage
-  To begin, open integrated terminal and input node index.js and follow the prompted questions. Then your readme file will be generated
+  To begin, open integrated terminal and input node index.js and follow the prompted questions. Then your README file will be generated.
   
   # How to Contribute
   George Karamanis
