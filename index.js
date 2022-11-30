@@ -27,8 +27,9 @@ const questions = () => {
             name: 'usage',
         },
         {
-            type: 'input',
+            type: 'list',
             message: "What license are you using?",
+            choices: ["MIT", "MPL 2.0", "ISC"],
             name: 'license',
         },
 
