@@ -6,7 +6,8 @@ const fs = require('fs');
 const generateMarkdown = require('./Develop/utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
-const questions = [
+const questions = () => {
+    return inquirer.prompt([
    
         {
             type: 'input',
@@ -55,39 +56,31 @@ const questions = [
             message: "Please enter your email",
             name: 'email',
         }
-    ];
-
-// TODO: Create a function to write README file
-const writeToFile = data => {
-    return new Promise((resolve, reject) => {
-    fs.writeFile('README.md', data, err => {
-        if (err) {
-            reject (err);
-            return;
-        }
-        resolve ({
-            message: console.log('Successfully wrote to README.md')
-        });
-      })
+    ])
+    .then(input => {
+        return input;
     })
-  }
-
-
-
-// TODO: Create a function to initialize app
-const init = () => {
-    return inquirer.prompt(questions);
-
+};
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if(err) throw err;
+        console.log('Successfully created README.md file!')
+    })
 }
 
+// TODO: Create a function to initialize app
+function init() {
+    questions()
+        .then(input => {
+            return generateMarkdown(input);
+        })
+        .then(markdown => {
+            writeToFile('README.md', markdown);
+        })
+        .catch(err => {
+            console.log(err);
+        })
+}
 // Function call to initialize app
 init()
-.then(userInput => {
-    return generateMarkdown(userInput);
-})
-.then(readmeInfo => {
-    return writeToFile(readmeInfo);
-})
-.catch(err => {
-    console.log(err);
-})

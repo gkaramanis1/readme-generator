@@ -1,6 +1,6 @@
 ([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT))
   
-  ## README file generator
+  ## README.md File Generator Project
   
   # Table of Contents 
   - [Description](#description)
@@ -12,19 +12,19 @@
   - [Questions](#questions)
   
   # Description
-  Use this application to create your own professional README file! A demonstration on how to use this application is provided here: [Demonstration](https://app.castify.com/view/a9cb569f-66f5-41f6-a3bf-526a8a5c545b)
+  Use this application to create a professional README.md file!! Below is a video of the demonstration. [Demonstration](https://app.castify.com/view/a9cb569f-66f5-41f6-a3bf-526a8a5c545b)
   
   # Installation
   Node.js
   
   # Usage
-  To begin, open integrated terminal and input node index.js and follow the prompted questions. Then your README file will be generated.
+  To begin, open the integrated terminal and input the command "node index.js. Then, answer the following questions provvided. Lastly, your README.md file will be generated.
   
   # How to Contribute
-  George Karamanis
+  Email me for contribution
   
   # Tests
-  To test this application we can use node index.js and answer the prompted questions accordingly.
+  To test this application, go into the integrated terminal and input the command "node index.js" and test out the functionality by answering the prompted questions.
   
   # License
   MIT
